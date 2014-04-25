@@ -188,8 +188,151 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Editing Shapes'  # Must be unique and is used as title of the category
+
+    entry do
+      command 'Cmd + Alt'
+      name 'Keep Current Selection'
+    end
+    entry do
+      command 'Control + Cmd + M'
+      name 'Use as Mask span (Works for Layers & Groups)'
+    end
+    entry do
+      command 'Alt + Cmd + U'
+      name 'Union'
+    end
+    entry do
+      command 'Alt + Cmd + S'
+      name 'Substract'
+    end
+    entry do
+      command 'Alt + Cmd + I'
+      name 'Intersect'
+    end
+    entry do
+      command 'Alt + Cmd + X'
+      name 'Difference'
+    end
+    entry do
+      command 'Cmd + Arrows'
+      name 'Change Object Size'
+    end
+    entry do
+      command 'Shift + Cmd + Arrows'
+      name 'Change Units by 10'
+    end
+    entry do
+      command '1, 2, 3, 4'
+      name 'Change Vector Point Style'
+    end
+  end
+
+  category do
+    id 'Editing Layers'  # Must be unique and is used as title of the category
+
+    entry do
+      command 'Alt'
+      name 'Show Distance to other Layers'
+    end
+    entry do
+      command 'Alt + Cmd'
+      name 'Show Distance to other Layers inside Group'
+    end
+    entry do
+      command 'Alt + Drag'
+      name 'Duplicate (Repeat with ⌘D)'
+    end
+    entry do
+      command 'Alt + Cmd + C'
+      name 'Copy Style'
+    end
+    entry do
+      command 'Alt + Cmd + V'
+      name 'Paste Style'
+    end
+    entry do
+      command 'Control + C'
+      name 'Color Picker'
+    end
+    entry do
+      command 'Cmd + T'
+      name 'Transform'
+    end
+    entry do
+      command 'Shift + Cmd + R'
+      name 'Rotate'
+    end
+    entry do
+      command 'F'
+      name 'Toggle Fill'
+    end
+    entry do
+      command 'B'
+      name 'Toggle Border'
+    end
+  end
+
+  category do
+    id 'Arranging Layers, Groups and Artboards'  # Must be unique and is used as title of the category
+
+    entry do
+      command 'Alt + Cmd + ↑'
+      name 'Bring Forward'
+    end
+    entry do
+      command 'Control + Alt + Cmd + ↑'
+      name 'Bring to Front'
+    end
+    entry do
+      command 'Alt + Cmd + ↓'
+      name 'Send Backward'
+    end
+    entry do
+      command 'Control + Alt + Cmd + ↓'
+      name 'Sent to Back'
+    end
+    entry do
+      command 'Shift + Cmd + H'
+      name 'Hide'
+    end
+    entry do
+      command 'Shift + Cmd + L'
+      name 'Lock'
+    end
+    entry do
+      command 'Cmd + R'
+      name 'Rename'
+    end
+    entry do
+      command 'Cmd + G'
+      name 'Group Layers'
+    end
+    entry do
+      command 'Shift + Cmd + G'
+      name 'Ungroup Layers'
+    end
+    entry do
+      command 'Shift + Tab'
+      name 'Select Above Layer'
+    end
+    entry do
+      command 'Tab'
+      name 'Select Layer Below'
+    end
+    entry do
+      command 'Esc'
+      name 'Select Parent Artboard'
+    end
+    entry do
+      command 'Cmd + F'
+      name 'Find Layer by Name'
+    end
+  end
   notes <<-'END'
     * [Creating Custom Shortcuts](http://sketchshortcuts.com/).
     * [Sketch](http://bohemiancoding.com/sketch/).
+    * Converted by [Victor Wang](https://github.com/wjp2013).
   END
 end
